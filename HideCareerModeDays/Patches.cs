@@ -15,7 +15,7 @@ namespace HideCareerModeDays
         {
             var simGame = Traverse.Create(__instance).Field("simState").GetValue<SimGameState>();
             var careerModeArea = Traverse.Create(__instance).Field("careerModeArea").GetValue<GameObject>();
-            
+
             if (simGame.IsCareerMode() && (Patches.Settings.HideAlways || simGame.GetCareerModeDaysRemaining() < 0))
             {
                 careerModeArea.SetActive(false);
