@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HideCareerModeDays", "HideCareerModeDays\HideCareerModeDays.csproj", "{E9DC70DB-8636-4923-88E8-514E67CC6C60}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{013F5A16-1C71-4C94-8B16-B8B382EEF1FD}"
+	ProjectSection(SolutionItems) = preProject
+		mod.json = mod.json
+		README.md = README.md
+		UNLICENSE = UNLICENSE
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
